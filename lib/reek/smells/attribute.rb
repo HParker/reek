@@ -46,7 +46,7 @@ module Reek
           SmellWarning.new self,
                            context: ctx.full_name,
                            lines: [line],
-                           message:  "declares the attribute #{attribute}",
+                           message: "declares the attribute #{attribute}",
                            parameters: { name: attribute.to_s }
         end
       end

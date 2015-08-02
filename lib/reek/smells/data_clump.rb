@@ -126,7 +126,7 @@ module Reek
     end
 
     def name
-      @defn.name.to_s     # BUG: should report the symbols!
+      @defn.name.to_s # BUG: should report the symbols!
     end
   end
 end
